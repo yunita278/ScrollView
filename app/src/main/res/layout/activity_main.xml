@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/purple_700"
+        android:padding="15dp"
+        android:text="Beatles Anthonology Vol. 1"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/subheading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Behind That Locked Door, Beatles Rarities!"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/article"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Anthology 1 is a compilation album by the Beatles, released on 20 November 1995 by Apple Records as part of The Beatles Anthology series. It features rarities, outtakes and live performances from the period 1958–64, including songs with original bass player Stuart Sutcliffe and drummer Pete Best. It is the first in a trilogy of albums with Anthology 2 and Anthology 3, all of which tie in with the televised special The Beatles Anthology. It contains, billed as the first new Beatles song in 25 years, which was released as a single two weeks after Anthology 1. The album topped the Billboard 200 album chart and was certified 8x Platinum by the RIAA. It reached number 2 on the UK albums chart. The Anthology albums were remastered and made available digitally on the iTunes Store on 14 June 2011, individually and as part of the Anthology Box Set. The album was a large success throughout the world. It was the first Beatles album to enter the Billboard 200 album chart at number one. It sold 855,473 copies in its first week, the 27th largest one-week sales in the Soundscan history, succeeding Fresh Horses by Garth Brooks. In its second week, Anthology 1 sold 453,000 copies and maintained the top spot. This was repeated the following week, with 435,000 copies sold. In its fourth week, the same quantity was sold, but the album fell to number two, behind Mariah Carey's Daydream. In the following week, the album fell to number three but with 601,000 sales. Anthology 1 was certified 3× Platinum by the RIAA after six weeks in the US market. In all, the album spent 29 weeks on the Billboard 200, reaching cumulative sales of 3,639,000 scans as of April 2001. In the UK, reaction was similar, but the album peaked at number two, behind Robson dan Jerome's eponymous album. In Australia, the album spent two weeks at number one in December 1995." />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
